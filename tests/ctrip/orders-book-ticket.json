@@ -1,0 +1,41 @@
+{
+  "name": "预订机票",
+  "steps": [
+    {
+      "action": "点击左边侧边栏最上面的‘折叠选单’",
+      "expectation": ""
+    },
+    {
+      "action": "点击‘机票’",
+      "expectation": ""
+    },
+    {
+      "action": "点击“出发地”输入框",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框内热门底下的“上海”",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框内热门底下的“北京”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“单程”单选框",
+      "expectation": ""
+    },
+    {
+      "action": "点击“搜索”按钮",
+      "expectation": "显示出发地为上海(机场SHG) 、目的地为北京(机场BJS)的航班列表"
+    },
+    {
+      "action": "向下滑动",
+      "expectation": ""
+    },
+    {
+      "action": "点击第一个航班的“订票”按钮",
+      "expectation": "情况1：出现“收起”按钮，展开预订详情框；情况2：跳转至填写乘机人信息页"
+    }
+  ]
+}

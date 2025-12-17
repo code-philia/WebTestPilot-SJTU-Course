@@ -1,0 +1,37 @@
+{
+  "name": "优雅处理空结果（航班）",
+  "steps": [
+    {
+      "action": "点击左边侧边栏最上面的‘折叠选单’",
+      "expectation": ""
+    },
+    {
+      "action": "点击‘机票’",
+      "expectation": ""
+    },
+    {
+      "action": "点击“出发地”输入框",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框内热门底下的“上海”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“目的地”输入框",
+      "expectation": ""
+    },
+    {
+      "action": "输入“aaa”，等待片刻，回车",
+      "expectation": ""
+    },
+    {
+      "action": "点击“单程”单选框",
+      "expectation": ""
+    },
+    {
+      "action": "点击“搜索”按钮",
+      "expectation": "显示未找到符合条件的航班信息"
+    }
+  ]
+}

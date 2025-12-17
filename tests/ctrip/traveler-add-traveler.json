@@ -1,0 +1,53 @@
+{
+  "name": "添加旅客",
+  "steps": [
+    {
+      "action": "点击搜索栏右侧，带有头像和‘昵称...’文字的胶囊按钮",
+      "expectation": ""
+    },
+    {
+      "action": "在打开的下拉菜单中，点击用户等级上方的用户昵称区域",
+      "expectation": ""
+    },
+    {
+      "action": "点击“常用信息”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“常用旅客信息”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“新增”按钮",
+      "expectation": ""
+    },
+    {
+      "action": "在“中文名”输入框中输入“张三”",
+      "expectation": ""
+    },
+    {
+      "action": "向下滑动",
+      "expectation": ""
+    },
+    {
+      "action": "点击“证件类型”下拉框",
+      "expectation": ""
+    },
+    {
+      "action": "在下拉框中通过键盘选择“身份证”",
+      "expectation": ""
+    },
+    {
+      "action": "在“证件号码”输入框中输入“150207199009273275”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“保存”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“确定”",
+      "expectation": "提示添加成功，返回旅客管理界面，新增旅客“张三”"
+    }
+  ]
+}

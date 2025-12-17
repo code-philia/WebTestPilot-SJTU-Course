@@ -1,0 +1,45 @@
+{
+  "name": "查看商家详情",
+  "steps": [
+    {
+      "action": "点击“商旅服务”",
+      "expectation": ""
+    },
+    {
+      "action": "点击下拉框中最左侧的“餐饮•特产”",
+      "expectation": ""
+    },
+    {
+      "action": "在车次框中输入G102，回车",
+      "expectation": ""
+    },
+    {
+      "action": "点击“乘车站”输入框",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框中热门底下的“北京”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“到达站”输入框",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框中热门底下的“上海”",
+      "expectation": ""
+    },
+    {
+      "action": "点击列车查询表单中的“搜索”按钮",
+      "expectation": ""
+    },
+    {
+      "action": "若出现登录弹窗则把它关闭，否则等待片刻",
+      "expectation": ""
+    },
+    {
+      "action": "勾选“显示可预订商家”",
+      "expectation": "显示各类产品，若无则显示未查询到信息"
+    }
+  ]
+}

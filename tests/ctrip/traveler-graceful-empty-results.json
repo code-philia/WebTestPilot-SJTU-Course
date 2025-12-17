@@ -1,0 +1,29 @@
+{
+  "name": "优雅处理空结果（旅客）",
+  "steps": [
+    {
+      "action": "点击搜索栏右侧，带有头像和‘昵称...’文字的胶囊按钮",
+      "expectation": ""
+    },
+    {
+      "action": "在打开的下拉菜单中，点击用户等级上方的用户昵称区域",
+      "expectation": ""
+    },
+    {
+      "action": "点击“常用信息”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“常用旅客信息”",
+      "expectation": ""
+    },
+    {
+      "action": "在旅客姓名搜索框中输入“ABCDEFG”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“查询”",
+      "expectation": "显示类似查询失败的提示"
+    }
+  ]
+}

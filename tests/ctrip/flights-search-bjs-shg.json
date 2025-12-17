@@ -1,0 +1,25 @@
+{
+  "name": "查询 当日或次日 上海-北京 单程航班",
+  "steps": [
+    {
+      "action": "点击“出发地”输入框",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框内热门底下的“上海”",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框内热门底下的“北京”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“单程”单选框",
+      "expectation": ""
+    },
+    {
+      "action": "点击“搜索”按钮",
+      "expectation": "显示出发地为上海(机场SHG) 、目的地为北京(机场BJS)的航班列表"
+    }
+  ]
+}
