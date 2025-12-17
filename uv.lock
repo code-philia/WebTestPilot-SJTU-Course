@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 
 [[package]]
@@ -740,7 +740,7 @@ wheels = [
 
 [[package]]
 name = "webtestpilot"
-version = "0.1.4"
+version = "0.1.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "baml-py" },
@@ -754,9 +754,9 @@ dependencies = [
     { name = "pyyaml" },
     { name = "zss" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7b/2f/cdd30fb7ebdb3177115796afa769d97f639e5774d514b52e19603b9b8944/webtestpilot-0.1.4.tar.gz", hash = "sha256:a6e0e4db7054b844e927ce0464fa9010c2ec146a5aac748e3be96a9cfbe67d2f", size = 38257, upload-time = "2025-12-17T13:31:07.808Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/39/ba691d1cf2e44e2298261ac0dc3c8d2b884f27ecdf1bf52f9db41e5b3c0b/webtestpilot-0.1.6.tar.gz", hash = "sha256:2575a1c3bfe136b2732b6b32edcc251171a6e47d92c17534a3b63a72d136f00e", size = 50020, upload-time = "2025-12-17T14:17:46.967Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/0a/5e062a83fe6109f1a9f901cd58f4771a14d0ace0efe1c7ea3a9273269759/webtestpilot-0.1.4-py3-none-any.whl", hash = "sha256:67450187f6a5d735c35a6ae5291e7039cb51cbcd09feb8c9479467bcd8468035", size = 48795, upload-time = "2025-12-17T13:31:06.495Z" },
+    { url = "https://files.pythonhosted.org/packages/43/de/a2c02b755218e37f0ff31a2662862b8e43cbc186da4b5c5b49f0bb7e6d65/webtestpilot-0.1.6-py3-none-any.whl", hash = "sha256:bb34e1d38bb2301bfad5764f4d6cf7d461b24255a46c07366ca76f909c6a91eb", size = 60983, upload-time = "2025-12-17T14:17:45.367Z" },
 ]
 
 [[package]]
@@ -771,7 +771,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "pytest-webtestpilot", specifier = ">=0.1.0" },
-    { name = "webtestpilot", specifier = "==0.1.4" },
+    { name = "webtestpilot", specifier = "==0.1.6" },
 ]
 
 [[package]]

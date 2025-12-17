@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pytest-webtestpilot>=0.1.0",
-    "webtestpilot==0.1.4",
+    "webtestpilot==0.1.6",
 ]

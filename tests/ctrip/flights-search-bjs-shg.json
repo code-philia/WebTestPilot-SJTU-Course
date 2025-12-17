@@ -2,6 +2,14 @@
   "name": "查询 当日或次日 上海-北京 单程航班",
   "steps": [
     {
+      "action": "点击左边侧边栏最上面的‘折叠选单’",
+      "expectation": ""
+    },
+    {
+      "action": "点击‘机票’",
+      "expectation": ""
+    },
+    {
       "action": "点击“出发地”输入框",
       "expectation": ""
     },
