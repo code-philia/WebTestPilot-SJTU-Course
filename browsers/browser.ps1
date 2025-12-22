@@ -8,7 +8,7 @@ $ErrorActionPreference = 'Stop'
 Set-Location -Path $PSScriptRoot
 
 $port = 9222
-$windowSize = '1920,1080'
+$windowSize = '1280,720'
 $profileRoot = [System.IO.Path]::GetTempPath()
 $profileDir = Join-Path -Path $profileRoot -ChildPath ("chrome-profile-" + [System.Guid]::NewGuid().ToString('N'))
 $logPath = Join-Path -Path $profileRoot -ChildPath 'chrome.log'
