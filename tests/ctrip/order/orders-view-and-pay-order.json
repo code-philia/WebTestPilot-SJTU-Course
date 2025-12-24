@@ -1,0 +1,21 @@
+{
+  "name": "55 - 查看、支付订单",
+  "steps": [
+    {
+      "action": "首页右上角点击“我的订单”",
+      "expectation": ""
+    },
+    {
+      "action": "点击弹出菜单中的”全部订单”",
+      "expectation": "显示“全部订单”列表"
+    },
+    {
+      "action": "点击进入待支付订单的详情页",
+      "expectation": "展示订单详情"
+    },
+    {
+      "action": "点击“立即支付”",
+      "expectation": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "54 - 取消订单",
+  "steps": [
+    {
+      "action": "首页右上角点击“我的订单”",
+      "expectation": "弹出菜单"
+    },
+    {
+      "action": "点击弹出菜单中的”全部订单”",
+      "expectation": "显示“全部订单”列表"
+    },
+    {
+      "action": "点击进入“待支付”状态的订单",
+      "expectation": ""
+    },
+    {
+      "action": "点击最新订单上的“取消订单”按钮",
+      "expectation": ""
+    },
+    {
+      "action": "点击“取消订单”",
+      "expectation": "弹出取消订单窗口”"
+    },
+    {
+      "action": "点击“取消订单”",
+      "expectation": "页面显示“已取消”"
+    }
+  ]
+}
