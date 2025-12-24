@@ -1,0 +1,45 @@
+{
+  "id": "70 - 筛选舱位 商务舱",
+  "name": "70 - 筛选舱位 商务舱",
+  "url": "${CTRIP_URL}",
+  "steps": [
+    {
+      "action": "点击左边侧边栏最上面的‘折叠选单’",
+      "expectation": ""
+    },
+    {
+      "action": "点击‘机票’",
+      "expectation": ""
+    },
+    {
+      "action": "点击“出发地”输入框",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框内热门底下的“上海”",
+      "expectation": ""
+    },
+    {
+      "action": "点击选择框内热门底下的“北京”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“出发日期”，打开日历控件",
+      "expectation": ""
+    },
+    {
+      "action": "点击“搜索”按钮",
+      "expectation": ""
+    },
+    {
+      "action": "在航班列表页，点击“舱位”下拉列表",
+      "expectation": ""
+    },
+    {
+      "action": "选择“公务/头等舱”",
+      "expectation": "显示商务舱的航班列表"
+    }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}
