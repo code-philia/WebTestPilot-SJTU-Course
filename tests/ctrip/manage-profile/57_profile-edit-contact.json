@@ -1,0 +1,33 @@
+{
+  "id": "57 - 修改个人信息（邮箱与昵称）",
+  "name": "57 - 修改个人信息（邮箱与昵称）",
+  "url": "${CTRIP_URL}",
+  "steps": [
+    {
+      "action": "点击首页搜索框右边的用户头像，并点击弹出菜单中的用户名",
+      "expectation": ""
+    },
+    {
+      "action": "侧边栏点击个人信息-我的信息",
+      "expectation": ""
+    },
+    {
+      "action": "点击“编辑”按钮",
+      "expectation": ""
+    },
+    {
+      "action": "“性别”选择“男”",
+      "expectation": ""
+    },
+    {
+      "action": "“昵称”输入框输入新昵称“oldnick_”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“保存”",
+      "expectation": "提示修改成功，显示新的性别、昵称"
+    }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}

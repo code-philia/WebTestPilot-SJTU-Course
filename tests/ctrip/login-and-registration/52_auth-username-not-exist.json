@@ -1,0 +1,33 @@
+{
+  "id": "52 - 用户名不存在",
+  "name": "52 - 用户名不存在",
+  "url": "${CTRIP_URL}",
+  "steps": [
+    {
+      "action": "首页点击“登录”",
+      "expectation": "跳转至登录界面"
+    },
+    {
+      "action": "选择“账号密码登录”",
+      "expectation": ""
+    },
+    {
+      "action": "输入不存在的用户名“unknown_user@example.com”",
+      "expectation": ""
+    },
+    {
+      "action": "输入任意密码",
+      "expectation": ""
+    },
+    {
+      "action": "勾选同意服务协议",
+      "expectation": ""
+    },
+    {
+      "action": "点击“登录”",
+      "expectation": "显示账号不存在的错误提示"
+    }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Disagree with terms",
+  "name": "Disagree with terms",
+  "steps": [
+    {
+      "action": "Click the '注册' button",
+      "expectation": ""
+    },
+    {
+      "action": "Click '不同意'",
+      "expectation": "Show a home page with search bar"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Invalid phone number",
+  "name": "Invalid phone number",
+  "steps": [
+    {
+      "action": "Click the '注册' button",
+      "expectation": ""
+    },
+    {
+      "action": "Click '同意并继续'",
+      "expectation": ""
+    },
+    {
+      "action": "Input '123456' in the '有效手机号' field",
+      "expectation": ""
+    },
+    {
+      "action": "Click button 获取验证码",
+      "expectation": "Any warning message is displayed"
+    }
+  ]
+}
