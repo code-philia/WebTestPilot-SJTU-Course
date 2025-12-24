@@ -1,0 +1,29 @@
+{
+  "name": "79 - 查询 2025-12-15 上海-北京 航班",
+  "steps": [
+    {
+      "action": "确保处于首页机票查询页面",
+      "expectation": ""
+    },
+    {
+      "action": "输入出发地“上海 (SHA)”",
+      "expectation": ""
+    },
+    {
+      "action": "输入目的地“北京 (BJS)”",
+      "expectation": ""
+    },
+    {
+      "action": "选择出发日期“2025-12-15”",
+      "expectation": ""
+    },
+    {
+      "action": "点击“单程”单选框",
+      "expectation": ""
+    },
+    {
+      "action": "点击“搜索”按钮",
+      "expectation": "显示出发地为“上海”或“上海 (SHA)”、目的地为“北京”或“北京 (BJS)”"
+    }
+  ]
+}
